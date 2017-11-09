@@ -118,6 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnLamTrang.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAldEVYdFRpdGxlAENsZWFyO0VyYXNlO1JlbW92ZTtC
+        YXJzO1JpYmJvbjuHgINzAAABP0lEQVRYR8WOwU0DMRREU0fKQLllDxRAHeFKBUhInOggBVABbaQnZwbt
+        j+zv8WJ7d83hReuJ/rw5hBD+FRmORIYjkeEapml6Ieo/hQx7meXXmaoRMuzByatHyLAVipw4ZnGEDFug
+        wAkVxREyrIXFTlTiG7yrjiyoBYUt8jCTjUgetaCoRy5HJMU1oGCN3Hi2vkywBA63kH/EnYlgCRxuLifJ
+        owQOz0DJPE1ykgUeHD6BC3gDSmo0y4kMDRya3CiN6JITGRIcenlpRLecyBCHJblhI1bJSRbg8C+58QWU
+        mFTJSfLAYa38E9zAD+iWk8cHDlvlRjyiSU5+f3B4BErm8fJ4RLOcPD5QcAJKapTk5DUubSF5oKg0Yhc5
+        yQIU+hG7yYkMUWwjdpUTGRIIOEKJySZyIsORyHAkMhyJDMcRDndsJLA2GBzXxAAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="btnDong.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAATtJREFUWEft
@@ -172,18 +184,6 @@
         +Q6wf1ZTXSHUb/yzfbI+p/TZLM/OcX72EOKn94UeQtxBh7j2z/DXtCftUxXyHMfqSUNQEDUajQ1c9Q4/
         nT9zaBkv4OQPodtX4sUCxAqZByzrOQ7384fQqTIvwnke4LVEpgWQdLGml5QGeBpClVzTK3oSgC8urIFr
         0wt7K6uPpwQMTqE8Oa8AAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="btnLamTrang.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
-        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAldEVYdFRpdGxlAENsZWFyO0VyYXNlO1JlbW92ZTtC
-        YXJzO1JpYmJvbjuHgINzAAABP0lEQVRYR8WOwU0DMRREU0fKQLllDxRAHeFKBUhInOggBVABbaQnZwbt
-        j+zv8WJ7d83hReuJ/rw5hBD+FRmORIYjkeEapml6Ieo/hQx7meXXmaoRMuzByatHyLAVipw4ZnGEDFug
-        wAkVxREyrIXFTlTiG7yrjiyoBYUt8jCTjUgetaCoRy5HJMU1oGCN3Hi2vkywBA63kH/EnYlgCRxuLifJ
-        owQOz0DJPE1ykgUeHD6BC3gDSmo0y4kMDRya3CiN6JITGRIcenlpRLecyBCHJblhI1bJSRbg8C+58QWU
-        mFTJSfLAYa38E9zAD+iWk8cHDlvlRjyiSU5+f3B4BErm8fJ4RLOcPD5QcAJKapTk5DUubSF5oKg0Yhc5
-        yQIU+hG7yYkMUWwjdpUTGRIIOEKJySZyIsORyHAkMhyJDMcRDndsJLA2GBzXxAAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>

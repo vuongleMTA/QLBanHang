@@ -1,4 +1,4 @@
-﻿namespace QLBanHang.GUI
+﻿namespace QuanLyHangHoa.GUI
 {
     partial class FrmDoiMatKhau
     {
@@ -97,6 +97,7 @@
             this.btnDoi.Size = new System.Drawing.Size(78, 30);
             this.btnDoi.TabIndex = 6;
             this.btnDoi.Text = "Đổi mật khẩu";
+            this.btnDoi.Click += new System.EventHandler(this.btnDoi_Click);
             // 
             // btnThoat
             // 
@@ -105,6 +106,7 @@
             this.btnThoat.Size = new System.Drawing.Size(78, 30);
             this.btnThoat.TabIndex = 7;
             this.btnThoat.Text = "Thoát";
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // FrmDoiMatKhau
             // 

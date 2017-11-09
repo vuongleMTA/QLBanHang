@@ -1,4 +1,4 @@
-﻿namespace QLBanHang.GUI
+﻿namespace QuanLyHangHoa.GUI
 {
     partial class FrmMatHangKinhDoanh
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMatHangKinhDoanh));
             this.dgvMatHangMain = new DevExpress.XtraGrid.GridControl();
             this.dgvMatHang = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.MaMH = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -83,6 +84,7 @@
             this.dgvMatHang.OptionsDetail.DetailMode = DevExpress.XtraGrid.Views.Grid.DetailMode.Default;
             this.dgvMatHang.PaintStyleName = "UltraFlat";
             this.dgvMatHang.RowHeight = 40;
+            this.dgvMatHang.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.dgvMatHang_FocusedRowChanged);
             // 
             // MaMH
             // 
@@ -169,6 +171,7 @@
             this.cbxNhaSanXuat.Name = "cbxNhaSanXuat";
             this.cbxNhaSanXuat.Size = new System.Drawing.Size(190, 21);
             this.cbxNhaSanXuat.TabIndex = 19;
+            this.cbxNhaSanXuat.SelectedIndexChanged += new System.EventHandler(this.cbxNhaSanXuat_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -220,47 +223,57 @@
             // btnDong
             // 
             this.btnDong.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
             this.btnDong.Location = new System.Drawing.Point(605, 477);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(404, 45);
             this.btnDong.TabIndex = 18;
             this.btnDong.Text = "Đóng chức năng";
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnXoa
             // 
             this.btnXoa.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.Location = new System.Drawing.Point(810, 426);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(199, 45);
             this.btnXoa.TabIndex = 21;
             this.btnXoa.Text = "Xóa";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
             this.btnThem.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
             this.btnThem.Location = new System.Drawing.Point(605, 375);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(199, 45);
             this.btnThem.TabIndex = 19;
             this.btnThem.Text = "Thêm";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
             this.btnSua.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
             this.btnSua.Location = new System.Drawing.Point(605, 426);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(199, 45);
             this.btnSua.TabIndex = 20;
             this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnLamTrang
             // 
             this.btnLamTrang.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnLamTrang.Image = ((System.Drawing.Image)(resources.GetObject("btnLamTrang.Image")));
             this.btnLamTrang.Location = new System.Drawing.Point(810, 375);
             this.btnLamTrang.Name = "btnLamTrang";
             this.btnLamTrang.Size = new System.Drawing.Size(199, 45);
             this.btnLamTrang.TabIndex = 22;
             this.btnLamTrang.Text = "Xóa trắng";
+            this.btnLamTrang.Click += new System.EventHandler(this.btnLamTrang_Click);
             // 
             // label2
             // 
@@ -290,6 +303,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMatHangKinhDoanh";
             this.Text = "FrmMatHangKinhDoanh";
+            this.Load += new System.EventHandler(this.FrmMatHangKinhDoanh_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMatHangMain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMatHang)).EndInit();
             this.groupBox1.ResumeLayout(false);
