@@ -17,3 +17,6 @@ F:\Thuc tap nhom\QuanLyCH\QLBanHang\QLBanHang\obj\Debug\QLBanHang.GUI.FrmDanhSac
 F:\Thuc tap nhom\QuanLyCH\QLBanHang\QLBanHang\obj\Debug\QLBanHang.GUI.FrmDoiMatKhau.resources
 F:\Thuc tap nhom\QuanLyCH\QLBanHang\QLBanHang\obj\Debug\QLBanHang.GUI.FrmMain.resources
 F:\Thuc tap nhom\QuanLyCH\QLBanHang\QLBanHang\obj\Debug\QLBanHang.GUI.FrmMatHangKinhDoanh.resources
+C:\Users\Vuong Le\Desktop\CLONE\QLBanHang\QLBanHang\QLBanHang\QLBanHang\bin\Debug\QLBanHang.exe.config
+C:\Users\Vuong Le\Desktop\CLONE\QLBanHang\QLBanHang\QLBanHang\QLBanHang\obj\Debug\QLBanHang.exe
+C:\Users\Vuong Le\Desktop\CLONE\QLBanHang\QLBanHang\QLBanHang\QLBanHang\obj\Debug\QLBanHang.pdb
