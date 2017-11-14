@@ -1,4 +1,4 @@
-﻿namespace QLBanHang.GUI
+﻿namespace QuanLyHangHoa.GUI
 {
     partial class FrmNhanVien
     {
@@ -309,7 +309,7 @@
             this.btnDong.Size = new System.Drawing.Size(404, 45);
             this.btnDong.TabIndex = 18;
             this.btnDong.Text = "Đóng chức năng";
-           // this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnXoa
             // 
@@ -320,7 +320,7 @@
             this.btnXoa.Size = new System.Drawing.Size(199, 45);
             this.btnXoa.TabIndex = 21;
             this.btnXoa.Text = "Xóa";
-         //   this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
@@ -331,7 +331,7 @@
             this.btnThem.Size = new System.Drawing.Size(199, 45);
             this.btnThem.TabIndex = 19;
             this.btnThem.Text = "Thêm";
-        //    this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
@@ -342,7 +342,7 @@
             this.btnSua.Size = new System.Drawing.Size(199, 45);
             this.btnSua.TabIndex = 20;
             this.btnSua.Text = "Sửa";
-          //  this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // dgvNhanVienMain
             // 
@@ -373,7 +373,7 @@
             this.dgvNhanVien.OptionsFind.AlwaysVisible = true;
             this.dgvNhanVien.PaintStyleName = "UltraFlat";
             this.dgvNhanVien.RowHeight = 40;
-           // this.dgvNhanVien.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.dgvNhanVien_FocusedRowChanged);
+            this.dgvNhanVien.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.dgvNhanVien_FocusedRowChanged);
             // 
             // STT
             // 
@@ -426,7 +426,7 @@
             this.btnLamTrang.Size = new System.Drawing.Size(199, 45);
             this.btnLamTrang.TabIndex = 39;
             this.btnLamTrang.Text = "Xóa trắng";
-          //  this.btnLamTrang.Click += new System.EventHandler(this.btnLamTrang_Click);
+            this.btnLamTrang.Click += new System.EventHandler(this.btnLamTrang_Click);
             // 
             // FrmNhanVien
             // 
@@ -445,7 +445,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmNhanVien";
             this.Text = "FrmNhanVien";
-           // this.Load += new System.EventHandler(this.FrmNhanVien_Load);
+            this.Load += new System.EventHandler(this.FrmNhanVien_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateNS.Properties.CalendarTimeProperties)).EndInit();
