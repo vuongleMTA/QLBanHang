@@ -1,4 +1,4 @@
-﻿namespace QLBanHang.GUI
+﻿namespace QuanLyHangHoa.GUI
 {
     partial class FrmDanhSachKhachHang
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDanhSachKhachHang));
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -206,11 +207,13 @@
             // btnLamTrang
             // 
             this.btnLamTrang.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnLamTrang.Image = ((System.Drawing.Image)(resources.GetObject("btnLamTrang.Image")));
             this.btnLamTrang.Location = new System.Drawing.Point(815, 379);
             this.btnLamTrang.Name = "btnLamTrang";
             this.btnLamTrang.Size = new System.Drawing.Size(199, 45);
             this.btnLamTrang.TabIndex = 45;
             this.btnLamTrang.Text = "Xóa trắng";
+            this.btnLamTrang.Click += new System.EventHandler(this.btnLamTrang_Click);
             // 
             // dgvKhachHangMain
             // 
@@ -221,6 +224,8 @@
             this.dgvKhachHangMain.TabIndex = 44;
             this.dgvKhachHangMain.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.dgvKhachHang});
+            this.dgvKhachHangMain.BackgroundImageLayoutChanged += new System.EventHandler(this.gridControl1_Click);
+            this.dgvKhachHangMain.Click += new System.EventHandler(this.dgvKhachHangMain_Click);
             // 
             // dgvKhachHang
             // 
@@ -244,6 +249,7 @@
             this.dgvKhachHang.OptionsFind.AlwaysVisible = true;
             this.dgvKhachHang.PaintStyleName = "UltraFlat";
             this.dgvKhachHang.RowHeight = 40;
+            this.dgvKhachHang.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.dgvKhachHang_FocusedRowChanged);
             // 
             // STT
             // 
@@ -290,38 +296,46 @@
             // btnDong
             // 
             this.btnDong.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
             this.btnDong.Location = new System.Drawing.Point(610, 482);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(404, 45);
             this.btnDong.TabIndex = 40;
             this.btnDong.Text = "Đóng chức năng";
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnXoa
             // 
             this.btnXoa.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.Location = new System.Drawing.Point(815, 430);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(199, 45);
             this.btnXoa.TabIndex = 43;
             this.btnXoa.Text = "Xóa";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
             this.btnThem.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
             this.btnThem.Location = new System.Drawing.Point(610, 379);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(199, 45);
             this.btnThem.TabIndex = 41;
             this.btnThem.Text = "Thêm";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
             this.btnSua.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
             this.btnSua.Location = new System.Drawing.Point(610, 430);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(199, 45);
             this.btnSua.TabIndex = 42;
             this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // FrmDanhSachKhachHang
             // 
@@ -340,6 +354,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmDanhSachKhachHang";
             this.Text = "FrmDanhSachKhachHang";
+            this.Load += new System.EventHandler(this.FrmDanhSachKhachHang_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateNS.Properties.CalendarTimeProperties)).EndInit();
