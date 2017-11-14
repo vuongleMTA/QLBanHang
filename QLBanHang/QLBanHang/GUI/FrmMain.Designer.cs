@@ -1,4 +1,4 @@
-﻿namespace QLBanHang.GUI
+﻿namespace QuanLyHangHoa.GUI
 {
     partial class FrmMain
     {
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barNhanVienNhapHang = new DevExpress.XtraBars.BarButtonItem();
@@ -94,6 +95,7 @@
             // barButtonItem1
             // 
             this.barButtonItem1.Caption = "Đăng xuất";
+            this.barButtonItem1.Glyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.Glyph")));
             this.barButtonItem1.Id = 1;
             this.barButtonItem1.Name = "barButtonItem1";
             this.barButtonItem1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
@@ -101,90 +103,101 @@
             // barNhanVienNhapHang
             // 
             this.barNhanVienNhapHang.Caption = "Nhập hàng";
-            this.barNhanVienNhapHang.Glyph = global::QLBanHang.Properties.Resources.slide5_downloadexport_icon;
+            this.barNhanVienNhapHang.Glyph = global::QuanLyHangHoa.Properties.Resources.buy_32x32;
             this.barNhanVienNhapHang.Id = 2;
             this.barNhanVienNhapHang.Name = "barNhanVienNhapHang";
             this.barNhanVienNhapHang.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barNhanVienNhapHang.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barNhanVienNhapHang_ItemClick);
             // 
             // barNhanVienBanHang
             // 
             this.barNhanVienBanHang.Caption = "Bán hàng";
-            this.barNhanVienBanHang.Glyph = global::QLBanHang.Properties.Resources.cart_upload_01_5121;
+            this.barNhanVienBanHang.Glyph = global::QuanLyHangHoa.Properties.Resources.bonote_32x32;
             this.barNhanVienBanHang.Id = 3;
             this.barNhanVienBanHang.Name = "barNhanVienBanHang";
             this.barNhanVienBanHang.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barNhanVienBanHang.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barNhanVienBanHang_ItemClick);
             // 
             // barDanhSachKhachHang
             // 
             this.barDanhSachKhachHang.Caption = "Danh sách khách hàng";
-            this.barDanhSachKhachHang.Glyph = global::QLBanHang.Properties.Resources.Staff_icon;
+            this.barDanhSachKhachHang.Glyph = global::QuanLyHangHoa.Properties.Resources.usergroup_32x32;
             this.barDanhSachKhachHang.Id = 4;
             this.barDanhSachKhachHang.Name = "barDanhSachKhachHang";
             this.barDanhSachKhachHang.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barDanhSachKhachHang.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barDanhSachKhachHang_ItemClick);
             // 
             // barDMChucVu
             // 
             this.barDMChucVu.Caption = "Chức vụ";
-            this.barDMChucVu.Glyph = global::QLBanHang.Properties.Resources.JVS_job_fair_icon;
+            this.barDMChucVu.Glyph = global::QuanLyHangHoa.Properties.Resources.weightedpies_32x32;
             this.barDMChucVu.Id = 5;
             this.barDMChucVu.Name = "barDMChucVu";
             this.barDMChucVu.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barDMChucVu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barDMChucVu_ItemClick);
             // 
             // barnQuanTriPhongBan
             // 
             this.barnQuanTriPhongBan.Caption = "Phòng ban";
-            this.barnQuanTriPhongBan.Glyph = global::QLBanHang.Properties.Resources.department1600;
+            this.barnQuanTriPhongBan.Glyph = global::QuanLyHangHoa.Properties.Resources.bodepartment_32x32;
             this.barnQuanTriPhongBan.Id = 6;
             this.barnQuanTriPhongBan.Name = "barnQuanTriPhongBan";
             this.barnQuanTriPhongBan.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barnQuanTriPhongBan.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barnQuanTriPhongBan_ItemClick);
             // 
             // barQuanTriNhanVien
             // 
             this.barQuanTriNhanVien.Caption = "Nhân viên";
-            this.barQuanTriNhanVien.Glyph = global::QLBanHang.Properties.Resources.Customers_customer_user_male_man_people_light;
+            this.barQuanTriNhanVien.Glyph = global::QuanLyHangHoa.Properties.Resources.customer_32x32;
             this.barQuanTriNhanVien.Id = 7;
             this.barQuanTriNhanVien.Name = "barQuanTriNhanVien";
             this.barQuanTriNhanVien.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barQuanTriNhanVien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barQuanTriNhanVien_ItemClick);
             // 
             // barMatHangKinhDoanh
             // 
             this.barMatHangKinhDoanh.Caption = "Mặt hàng kinh doanh";
-            this.barMatHangKinhDoanh.Glyph = global::QLBanHang.Properties.Resources.packing;
+            this.barMatHangKinhDoanh.Glyph = global::QuanLyHangHoa.Properties.Resources.satellite_32x32;
             this.barMatHangKinhDoanh.Id = 8;
             this.barMatHangKinhDoanh.Name = "barMatHangKinhDoanh";
             this.barMatHangKinhDoanh.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barMatHangKinhDoanh.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barMatHangKinhDoanh_ItemClick);
             // 
             // barBaoCaoKhoHang
             // 
             this.barBaoCaoKhoHang.Caption = "Báo cáo kho hàng";
-            this.barBaoCaoKhoHang.Glyph = global::QLBanHang.Properties.Resources.house_icon;
+            this.barBaoCaoKhoHang.Glyph = global::QuanLyHangHoa.Properties.Resources.home_32x32;
             this.barBaoCaoKhoHang.Id = 9;
             this.barBaoCaoKhoHang.Name = "barBaoCaoKhoHang";
             this.barBaoCaoKhoHang.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barBaoCaoKhoHang.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barBaoCaoKhoHang_ItemClick);
             // 
             // barBaoCaoLuongHang
             // 
             this.barBaoCaoLuongHang.Caption = "Báo cáo lượng hàng tiêu thu";
-            this.barBaoCaoLuongHang.Glyph = global::QLBanHang.Properties.Resources.Data_Combo_Chart_icon;
+            this.barBaoCaoLuongHang.Glyph = global::QuanLyHangHoa.Properties.Resources.chart_32x32;
             this.barBaoCaoLuongHang.Id = 10;
             this.barBaoCaoLuongHang.Name = "barBaoCaoLuongHang";
             this.barBaoCaoLuongHang.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barBaoCaoLuongHang.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barBaoCaoLuongHang_ItemClick);
             // 
             // barBaoCaoDoanhThu
             // 
             this.barBaoCaoDoanhThu.Caption = "Báo cáo doanh thu";
-            this.barBaoCaoDoanhThu.Glyph = global::QLBanHang.Properties.Resources._082260_green_jelly_icon_business_dollar_solid;
+            this.barBaoCaoDoanhThu.Glyph = global::QuanLyHangHoa.Properties.Resources.bosale_32x32;
             this.barBaoCaoDoanhThu.Id = 11;
             this.barBaoCaoDoanhThu.Name = "barBaoCaoDoanhThu";
             this.barBaoCaoDoanhThu.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barBaoCaoDoanhThu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barBaoCaoDoanhThu_ItemClick);
             // 
             // barQuanTriNhaSanXuat
             // 
             this.barQuanTriNhaSanXuat.Caption = "Nhà sản xuất";
-            this.barQuanTriNhaSanXuat.Glyph = global::QLBanHang.Properties.Resources.erp_manufacturing_phan_mem_quan_ly_san_xuat;
+            this.barQuanTriNhaSanXuat.Glyph = global::QuanLyHangHoa.Properties.Resources.boproduct_32x32;
             this.barQuanTriNhaSanXuat.Id = 12;
             this.barQuanTriNhaSanXuat.Name = "barQuanTriNhaSanXuat";
             this.barQuanTriNhaSanXuat.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barQuanTriNhaSanXuat.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barQuanTriNhaSanXuat_ItemClick);
             // 
             // rbNhanVien
             // 
@@ -245,20 +258,24 @@
             // btnDangXuat
             // 
             this.btnDangXuat.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnDangXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnDangXuat.Image")));
             this.btnDangXuat.Location = new System.Drawing.Point(5, 187);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Size = new System.Drawing.Size(206, 33);
             this.btnDangXuat.TabIndex = 2;
             this.btnDangXuat.Text = "Đăng xuất";
+            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
             // btnDoiMatKhau
             // 
             this.btnDoiMatKhau.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnDoiMatKhau.Image = ((System.Drawing.Image)(resources.GetObject("btnDoiMatKhau.Image")));
             this.btnDoiMatKhau.Location = new System.Drawing.Point(5, 148);
             this.btnDoiMatKhau.Name = "btnDoiMatKhau";
             this.btnDoiMatKhau.Size = new System.Drawing.Size(206, 33);
             this.btnDoiMatKhau.TabIndex = 1;
             this.btnDoiMatKhau.Text = "Đổi mật khẩu";
+            this.btnDoiMatKhau.Click += new System.EventHandler(this.btnDoiMatKhau_Click);
             // 
             // groupControl1
             // 
@@ -330,6 +347,7 @@
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý bán hàng";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
