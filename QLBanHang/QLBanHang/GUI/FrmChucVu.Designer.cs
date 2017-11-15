@@ -1,4 +1,4 @@
-﻿namespace QLBanHang.GUI
+﻿namespace QuanLyHangHoa.GUI
 {
     partial class FrmChucVu
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmChucVu));
             this.btnLamTrang = new DevExpress.XtraEditors.SimpleButton();
             this.btnDong = new DevExpress.XtraEditors.SimpleButton();
             this.btnXoa = new DevExpress.XtraEditors.SimpleButton();
@@ -51,47 +52,57 @@
             // btnLamTrang
             // 
             this.btnLamTrang.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnLamTrang.Image = ((System.Drawing.Image)(resources.GetObject("btnLamTrang.Image")));
             this.btnLamTrang.Location = new System.Drawing.Point(815, 384);
             this.btnLamTrang.Name = "btnLamTrang";
             this.btnLamTrang.Size = new System.Drawing.Size(199, 45);
             this.btnLamTrang.TabIndex = 38;
             this.btnLamTrang.Text = "Xóa trắng";
+            this.btnLamTrang.Click += new System.EventHandler(this.btnLamTrang_Click);
             // 
             // btnDong
             // 
             this.btnDong.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
             this.btnDong.Location = new System.Drawing.Point(610, 486);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(404, 45);
             this.btnDong.TabIndex = 34;
             this.btnDong.Text = "Đóng chức năng";
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnXoa
             // 
             this.btnXoa.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.Location = new System.Drawing.Point(815, 435);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(199, 45);
             this.btnXoa.TabIndex = 37;
             this.btnXoa.Text = "Xóa";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
             this.btnThem.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
             this.btnThem.Location = new System.Drawing.Point(610, 384);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(199, 45);
             this.btnThem.TabIndex = 35;
             this.btnThem.Text = "Thêm";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
             this.btnSua.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
             this.btnSua.Location = new System.Drawing.Point(610, 435);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(199, 45);
             this.btnSua.TabIndex = 36;
             this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // groupBox1
             // 
@@ -157,6 +168,7 @@
             this.dgvChucVu.OptionsDetail.DetailMode = DevExpress.XtraGrid.Views.Grid.DetailMode.Default;
             this.dgvChucVu.PaintStyleName = "UltraFlat";
             this.dgvChucVu.RowHeight = 40;
+            this.dgvChucVu.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.dgvPhongBan_FocusedRowChanged);
             // 
             // MaCV
             // 
@@ -212,6 +224,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmChucVu";
             this.Text = "FrmPhongBan";
+            this.Load += new System.EventHandler(this.FrmPhongBan_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChucVu)).EndInit();
