@@ -1,4 +1,4 @@
-﻿namespace QLBanHang.GUI
+﻿namespace QuanLyHangHoa.GUI
 {
     partial class FrmBanHang
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBanHang));
             this.txtTongTien = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.btnEnd = new DevExpress.XtraEditors.SimpleButton();
@@ -105,20 +106,24 @@
             // btnEnd
             // 
             this.btnEnd.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnEnd.Image = ((System.Drawing.Image)(resources.GetObject("btnEnd.Image")));
             this.btnEnd.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.btnEnd.Location = new System.Drawing.Point(409, 143);
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(58, 29);
             this.btnEnd.TabIndex = 10;
+            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
             // 
             // btnStart
             // 
             this.btnStart.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnStart.Image = ((System.Drawing.Image)(resources.GetObject("btnStart.Image")));
             this.btnStart.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.btnStart.Location = new System.Drawing.Point(141, 143);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(58, 29);
             this.btnStart.TabIndex = 9;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // txtIndex
             // 
@@ -133,11 +138,13 @@
             // btnRight
             // 
             this.btnRight.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnRight.Image = ((System.Drawing.Image)(resources.GetObject("btnRight.Image")));
             this.btnRight.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.btnRight.Location = new System.Drawing.Point(345, 143);
             this.btnRight.Name = "btnRight";
             this.btnRight.Size = new System.Drawing.Size(58, 29);
             this.btnRight.TabIndex = 7;
+            this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
             // 
             // txtDonViTinh
             // 
@@ -178,29 +185,35 @@
             // btnSuaPhieuXuat
             // 
             this.btnSuaPhieuXuat.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnSuaPhieuXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnSuaPhieuXuat.Image")));
             this.btnSuaPhieuXuat.Location = new System.Drawing.Point(342, 203);
             this.btnSuaPhieuXuat.Name = "btnSuaPhieuXuat";
             this.btnSuaPhieuXuat.Size = new System.Drawing.Size(124, 31);
             this.btnSuaPhieuXuat.TabIndex = 23;
             this.btnSuaPhieuXuat.Text = "Sửa phiếu xuất";
+            this.btnSuaPhieuXuat.Click += new System.EventHandler(this.btnSuaPhieuXuat_Click);
             // 
             // btnLamTrangPhieuXuat
             // 
             this.btnLamTrangPhieuXuat.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnLamTrangPhieuXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnLamTrangPhieuXuat.Image")));
             this.btnLamTrangPhieuXuat.Location = new System.Drawing.Point(472, 203);
             this.btnLamTrangPhieuXuat.Name = "btnLamTrangPhieuXuat";
             this.btnLamTrangPhieuXuat.Size = new System.Drawing.Size(124, 31);
             this.btnLamTrangPhieuXuat.TabIndex = 22;
             this.btnLamTrangPhieuXuat.Text = "Xóa phiếu";
+            this.btnLamTrangPhieuXuat.Click += new System.EventHandler(this.btnLamTrangPhieuXuat_Click);
             // 
             // btnLamTrang
             // 
             this.btnLamTrang.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnLamTrang.Image = ((System.Drawing.Image)(resources.GetObject("btnLamTrang.Image")));
             this.btnLamTrang.Location = new System.Drawing.Point(815, 399);
             this.btnLamTrang.Name = "btnLamTrang";
             this.btnLamTrang.Size = new System.Drawing.Size(199, 45);
             this.btnLamTrang.TabIndex = 20;
             this.btnLamTrang.Text = "Làm trắng";
+            this.btnLamTrang.Click += new System.EventHandler(this.btnLamTrang_Click);
             // 
             // label2
             // 
@@ -297,15 +310,18 @@
             this.cbxMatHang.Name = "cbxMatHang";
             this.cbxMatHang.Size = new System.Drawing.Size(212, 21);
             this.cbxMatHang.TabIndex = 5;
+            this.cbxMatHang.SelectedIndexChanged += new System.EventHandler(this.cbxMatHang_SelectedIndexChanged);
             // 
             // btnLeft
             // 
             this.btnLeft.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnLeft.Image = ((System.Drawing.Image)(resources.GetObject("btnLeft.Image")));
             this.btnLeft.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.btnLeft.Location = new System.Drawing.Point(205, 143);
             this.btnLeft.Name = "btnLeft";
             this.btnLeft.Size = new System.Drawing.Size(58, 29);
             this.btnLeft.TabIndex = 6;
+            this.btnLeft.Click += new System.EventHandler(this.btnLeft_Click);
             // 
             // dateNgayXuat
             // 
@@ -367,9 +383,11 @@
             this.dgvChiTietXuatMain.TabIndex = 13;
             this.dgvChiTietXuatMain.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.dgvChiTietXuat});
+            this.dgvChiTietXuatMain.Click += new System.EventHandler(this.dgvChiTietXuatMain_Click);
             // 
             // dgvChiTietXuat
             // 
+            this.dgvChiTietXuat.Appearance.ColumnFilterButton.Image = ((System.Drawing.Image)(resources.GetObject("dgvChiTietXuat.Appearance.ColumnFilterButton.Image")));
             this.dgvChiTietXuat.Appearance.ColumnFilterButton.Options.UseImage = true;
             this.dgvChiTietXuat.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.dgvChiTietXuat.ColumnPanelRowHeight = 30;
@@ -388,6 +406,7 @@
             this.dgvChiTietXuat.OptionsDetail.DetailMode = DevExpress.XtraGrid.Views.Grid.DetailMode.Default;
             this.dgvChiTietXuat.PaintStyleName = "UltraFlat";
             this.dgvChiTietXuat.RowHeight = 40;
+            this.dgvChiTietXuat.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.dgvChiTietXuat_FocusedRowChanged);
             // 
             // MaCTX
             // 
@@ -461,47 +480,57 @@
             // btnThemPhieuXuat
             // 
             this.btnThemPhieuXuat.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnThemPhieuXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnThemPhieuXuat.Image")));
             this.btnThemPhieuXuat.Location = new System.Drawing.Point(212, 203);
             this.btnThemPhieuXuat.Name = "btnThemPhieuXuat";
             this.btnThemPhieuXuat.Size = new System.Drawing.Size(124, 31);
             this.btnThemPhieuXuat.TabIndex = 21;
             this.btnThemPhieuXuat.Text = "Thêm phiếu xuất";
+            this.btnThemPhieuXuat.Click += new System.EventHandler(this.btnThemPhieuXuat_Click);
             // 
             // btnXuat
             // 
             this.btnXuat.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnXuat.Image")));
             this.btnXuat.Location = new System.Drawing.Point(815, 450);
             this.btnXuat.Name = "btnXuat";
             this.btnXuat.Size = new System.Drawing.Size(199, 45);
             this.btnXuat.TabIndex = 18;
             this.btnXuat.Text = "Xuất phiếu xuất";
+            this.btnXuat.Click += new System.EventHandler(this.btnXuat_Click);
             // 
             // btnXoa
             // 
             this.btnXoa.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.Location = new System.Drawing.Point(610, 450);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(199, 45);
             this.btnXoa.TabIndex = 17;
             this.btnXoa.Text = "Xóa chi tiết xuất";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
             this.btnThem.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
             this.btnThem.Location = new System.Drawing.Point(610, 399);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(199, 45);
             this.btnThem.TabIndex = 16;
             this.btnThem.Text = "Thêm chi tiết xuất";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnDong
             // 
             this.btnDong.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
             this.btnDong.Location = new System.Drawing.Point(610, 501);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(404, 45);
             this.btnDong.TabIndex = 15;
             this.btnDong.Text = "Đóng chức năng";
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // groupBox1
             // 
@@ -582,6 +611,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmBanHang";
             this.Text = "FrmBanHang";
+            this.Load += new System.EventHandler(this.FrmBanHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtSoLuong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDonGia)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateNgayXuat.Properties.CalendarTimeProperties)).EndInit();
