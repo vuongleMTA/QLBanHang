@@ -1,4 +1,4 @@
-﻿namespace QLBanHang.GUI
+﻿namespace QuanLyHangHoa.GUI
 {
     partial class FrmNhapHang
     {
@@ -83,7 +83,7 @@
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateNgayNhap.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateNgayNhap.Properties)).BeginInit();
-           // this.SuspendLayout();
+            this.SuspendLayout();
             // 
             // label1
             // 
@@ -123,7 +123,7 @@
             this.dgvChiTietNhap.OptionsDetail.DetailMode = DevExpress.XtraGrid.Views.Grid.DetailMode.Default;
             this.dgvChiTietNhap.PaintStyleName = "UltraFlat";
             this.dgvChiTietNhap.RowHeight = 40;
-        //    this.dgvChiTietNhap.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.dgvChiTietNhap_FocusedRowChanged);
+            this.dgvChiTietNhap.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.dgvChiTietNhap_FocusedRowChanged);
             // 
             // MaCTN
             // 
@@ -322,7 +322,7 @@
             this.cbxMatHang.Name = "cbxMatHang";
             this.cbxMatHang.Size = new System.Drawing.Size(212, 21);
             this.cbxMatHang.TabIndex = 5;
-          //  this.cbxMatHang.SelectedIndexChanged += new System.EventHandler(this.cbxMatHang_SelectedIndexChanged);
+            this.cbxMatHang.SelectedIndexChanged += new System.EventHandler(this.cbxMatHang_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -342,7 +342,7 @@
             this.btnDong.Size = new System.Drawing.Size(404, 45);
             this.btnDong.TabIndex = 3;
             this.btnDong.Text = "Đóng chức năng";
-          //  this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnThem
             // 
@@ -353,7 +353,7 @@
             this.btnThem.Size = new System.Drawing.Size(199, 45);
             this.btnThem.TabIndex = 4;
             this.btnThem.Text = "Thêm chi tiết nhập";
-          //  this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnXoa
             // 
@@ -364,7 +364,7 @@
             this.btnXoa.Size = new System.Drawing.Size(199, 45);
             this.btnXoa.TabIndex = 5;
             this.btnXoa.Text = "Xóa chi tiết nhập";
-          //  this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnXuat
             // 
@@ -375,7 +375,7 @@
             this.btnXuat.Size = new System.Drawing.Size(199, 45);
             this.btnXuat.TabIndex = 6;
             this.btnXuat.Text = "Xuất phiếu nhập";
-          //  this.btnXuat.Click += new System.EventHandler(this.btnXuat_Click);
+            this.btnXuat.Click += new System.EventHandler(this.btnXuat_Click);
             // 
             // groupBox2
             // 
@@ -438,7 +438,7 @@
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(58, 29);
             this.btnEnd.TabIndex = 10;
-          //  this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
+            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
             // 
             // btnStart
             // 
@@ -449,7 +449,7 @@
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(58, 29);
             this.btnStart.TabIndex = 9;
-          //  this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // txtIndex
             // 
@@ -470,7 +470,7 @@
             this.btnRight.Name = "btnRight";
             this.btnRight.Size = new System.Drawing.Size(58, 29);
             this.btnRight.TabIndex = 7;
-          //  this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
+            this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
             // 
             // btnLeft
             // 
@@ -481,7 +481,7 @@
             this.btnLeft.Name = "btnLeft";
             this.btnLeft.Size = new System.Drawing.Size(58, 29);
             this.btnLeft.TabIndex = 6;
-           // this.btnLeft.Click += new System.EventHandler(this.btnLeft_Click);
+            this.btnLeft.Click += new System.EventHandler(this.btnLeft_Click);
             // 
             // txtDiaDiem
             // 
@@ -551,7 +551,7 @@
             this.btnLamTrang.Size = new System.Drawing.Size(199, 45);
             this.btnLamTrang.TabIndex = 8;
             this.btnLamTrang.Text = "Làm trắng";
-          //  this.btnLamTrang.Click += new System.EventHandler(this.btnLamTrang_Click);
+            this.btnLamTrang.Click += new System.EventHandler(this.btnLamTrang_Click);
             // 
             // btnLamTrangPhieuNhap
             // 
@@ -562,7 +562,7 @@
             this.btnLamTrangPhieuNhap.Size = new System.Drawing.Size(118, 31);
             this.btnLamTrangPhieuNhap.TabIndex = 10;
             this.btnLamTrangPhieuNhap.Text = "Xóa phiếu";
-           // this.btnLamTrangPhieuNhap.Click += new System.EventHandler(this.btnLamTrangPhieuNhap_Click);
+            this.btnLamTrangPhieuNhap.Click += new System.EventHandler(this.btnLamTrangPhieuNhap_Click);
             // 
             // btnThemPhieuNhap
             // 
@@ -573,7 +573,7 @@
             this.btnThemPhieuNhap.Size = new System.Drawing.Size(124, 31);
             this.btnThemPhieuNhap.TabIndex = 9;
             this.btnThemPhieuNhap.Text = "Thêm phiếu nhập";
-          //  this.btnThemPhieuNhap.Click += new System.EventHandler(this.btnThemPhieuNhap_Click);
+            this.btnThemPhieuNhap.Click += new System.EventHandler(this.btnThemPhieuNhap_Click);
             // 
             // btnSuaPhieuNhap
             // 
@@ -584,7 +584,7 @@
             this.btnSuaPhieuNhap.Size = new System.Drawing.Size(124, 31);
             this.btnSuaPhieuNhap.TabIndex = 11;
             this.btnSuaPhieuNhap.Text = "Sửa phiếu nhập";
-           // this.btnSuaPhieuNhap.Click += new System.EventHandler(this.btnSuaPhieuNhap_Click);
+            this.btnSuaPhieuNhap.Click += new System.EventHandler(this.btnSuaPhieuNhap_Click);
             // 
             // FrmNhapHang
             // 
@@ -607,7 +607,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmNhapHang";
             this.Text = "Nhập hàng";
-        //    this.Load += new System.EventHandler(this.FrmNhapHang_Load);
+            this.Load += new System.EventHandler(this.FrmNhapHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietNhapMain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietNhap)).EndInit();
             this.groupBox1.ResumeLayout(false);
