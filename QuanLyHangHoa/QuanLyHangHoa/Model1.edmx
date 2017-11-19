@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="QUANLYHANGHOAModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="QUANLYHANGHOAModelStoreContainer">
+          <EntitySet Name="CHITIETNHAP" EntityType="QUANLYHANGHOAModel.Store.CHITIETNHAP" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CHITIETXUAT" EntityType="QUANLYHANGHOAModel.Store.CHITIETXUAT" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CHUCVU" EntityType="QUANLYHANGHOAModel.Store.CHUCVU" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="KHACHHANG" EntityType="QUANLYHANGHOAModel.Store.KHACHHANG" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="KHO" EntityType="QUANLYHANGHOAModel.Store.KHO" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="MATHANG" EntityType="QUANLYHANGHOAModel.Store.MATHANG" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="NHANVIEN" EntityType="QUANLYHANGHOAModel.Store.NHANVIEN" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="NHAP" EntityType="QUANLYHANGHOAModel.Store.NHAP" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="NHASANXUAT" EntityType="QUANLYHANGHOAModel.Store.NHASANXUAT" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PHONGBAN" EntityType="QUANLYHANGHOAModel.Store.PHONGBAN" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="XUAT" EntityType="QUANLYHANGHOAModel.Store.XUAT" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK__CHITIETNH__MATHA__22AA2996" Association="QUANLYHANGHOAModel.Store.FK__CHITIETNH__MATHA__22AA2996">
+            <End Role="MATHANG" EntitySet="MATHANG" />
+            <End Role="CHITIETNHAP" EntitySet="CHITIETNHAP" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CHITIETNH__NHAPI__239E4DCF" Association="QUANLYHANGHOAModel.Store.FK__CHITIETNH__NHAPI__239E4DCF">
+            <End Role="NHAP" EntitySet="NHAP" />
+            <End Role="CHITIETNHAP" EntitySet="CHITIETNHAP" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CHITIETXU__MATHA__2C3393D0" Association="QUANLYHANGHOAModel.Store.FK__CHITIETXU__MATHA__2C3393D0">
+            <End Role="MATHANG" EntitySet="MATHANG" />
+            <End Role="CHITIETXUAT" EntitySet="CHITIETXUAT" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CHITIETXU__XUATI__2D27B809" Association="QUANLYHANGHOAModel.Store.FK__CHITIETXU__XUATI__2D27B809">
+            <End Role="XUAT" EntitySet="XUAT" />
+            <End Role="CHITIETXUAT" EntitySet="CHITIETXUAT" />
+          </AssociationSet>
+          <AssociationSet Name="FK__KHO__MATHANGID__15502E78" Association="QUANLYHANGHOAModel.Store.FK__KHO__MATHANGID__15502E78">
+            <End Role="MATHANG" EntitySet="MATHANG" />
+            <End Role="KHO" EntitySet="KHO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__MATHANG__NHASANX__1273C1CD" Association="QUANLYHANGHOAModel.Store.FK__MATHANG__NHASANX__1273C1CD">
+            <End Role="NHASANXUAT" EntitySet="NHASANXUAT" />
+            <End Role="MATHANG" EntitySet="MATHANG" />
+          </AssociationSet>
+          <AssociationSet Name="FK__NHANVIEN__CHUCVU__1BFD2C07" Association="QUANLYHANGHOAModel.Store.FK__NHANVIEN__CHUCVU__1BFD2C07">
+            <End Role="CHUCVU" EntitySet="CHUCVU" />
+            <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+          </AssociationSet>
+          <AssociationSet Name="FK__NHANVIEN__PHONGB__1CF15040" Association="QUANLYHANGHOAModel.Store.FK__NHANVIEN__PHONGB__1CF15040">
+            <End Role="PHONGBAN" EntitySet="PHONGBAN" />
+            <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+          </AssociationSet>
+          <AssociationSet Name="FK__NHAP__NHANVIENID__1FCDBCEB" Association="QUANLYHANGHOAModel.Store.FK__NHAP__NHANVIENID__1FCDBCEB">
+            <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+            <End Role="NHAP" EntitySet="NHAP" />
+          </AssociationSet>
+          <AssociationSet Name="FK__XUAT__KHACHHANGI__29572725" Association="QUANLYHANGHOAModel.Store.FK__XUAT__KHACHHANGI__29572725">
+            <End Role="KHACHHANG" EntitySet="KHACHHANG" />
+            <End Role="XUAT" EntitySet="XUAT" />
+          </AssociationSet>
+          <AssociationSet Name="FK__XUAT__NHANVIENID__286302EC" Association="QUANLYHANGHOAModel.Store.FK__XUAT__NHANVIENID__286302EC">
+            <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+            <End Role="XUAT" EntitySet="XUAT" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CHITIETNHAP">
+          <Key>
+            <PropertyRef Name="CHITIETNHAPID" />
+          </Key>
+          <Property Name="CHITIETNHAPID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MATHANGID" Type="int" />
+          <Property Name="SOLUONG" Type="int" />
+          <Property Name="GIANHAP" Type="int" />
+          <Property Name="NHAPID" Type="int" />
+        </EntityType>
+        <EntityType Name="CHITIETXUAT">
+          <Key>
+            <PropertyRef Name="CHITIETXUATID" />
+          </Key>
+          <Property Name="CHITIETXUATID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MATHANGID" Type="int" />
+          <Property Name="SOLUONG" Type="int" />
+          <Property Name="GIABAN" Type="int" />
+          <Property Name="XUATID" Type="int" />
+        </EntityType>
+        <EntityType Name="CHUCVU">
+          <Key>
+            <PropertyRef Name="CHUCVUID" />
+          </Key>
+          <Property Name="CHUCVUID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TENCV" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="KHACHHANG">
+          <Key>
+            <PropertyRef Name="KHACHHANGID" />
+          </Key>
+          <Property Name="KHACHHANGID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="HOTEN" Type="nvarchar(max)" />
+          <Property Name="NGAYSINH" Type="datetime" />
+          <Property Name="GIOITINH" Type="int" />
+          <Property Name="SDT" Type="nvarchar(max)" />
+          <Property Name="DIACHI" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="KHO">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MATHANGID" Type="int" />
+          <Property Name="SOLUONG" Type="int" />
+        </EntityType>
+        <EntityType Name="MATHANG">
+          <Key>
+            <PropertyRef Name="MATHANGID" />
+          </Key>
+          <Property Name="MATHANGID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TENMH" Type="nvarchar(max)" />
+          <Property Name="DONVITINH" Type="nvarchar(max)" />
+          <Property Name="THANHPHAN" Type="nvarchar(max)" />
+          <Property Name="NHASANXUATID" Type="int" />
+        </EntityType>
+        <EntityType Name="NHANVIEN">
+          <Key>
+            <PropertyRef Name="NHANVIENID" />
+          </Key>
+          <Property Name="NHANVIENID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="HOTEN" Type="nvarchar(max)" />
+          <Property Name="NGAYSINH" Type="datetime" />
+          <Property Name="GIOITINH" Type="int" />
+          <Property Name="SDT" Type="nvarchar(max)" />
+          <Property Name="DIACHI" Type="nvarchar(max)" />
+          <Property Name="USERNAME" Type="nvarchar(max)" />
+          <Property Name="PASSWORD" Type="nvarchar(max)" />
+          <Property Name="CHUCVUID" Type="int" />
+          <Property Name="PHONGBANID" Type="int" />
+        </EntityType>
+        <EntityType Name="NHAP">
+          <Key>
+            <PropertyRef Name="NHAPID" />
+          </Key>
+          <Property Name="NHAPID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NHANVIENID" Type="int" />
+          <Property Name="NGAY" Type="datetime" />
+          <Property Name="DIADIEMNHAP" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="NHASANXUAT">
+          <Key>
+            <PropertyRef Name="NHASANXUATID" />
+          </Key>
+          <Property Name="NHASANXUATID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TEN" Type="nvarchar(max)" />
+          <Property Name="NAMTHANHLAP" Type="int" />
+        </EntityType>
+        <EntityType Name="PHONGBAN">
+          <Key>
+            <PropertyRef Name="PHONGBANID" />
+          </Key>
+          <Property Name="PHONGBANID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TENPB" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="XUAT">
+          <Key>
+            <PropertyRef Name="XUATID" />
+          </Key>
+          <Property Name="XUATID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NHANVIENID" Type="int" />
+          <Property Name="KHACHHANGID" Type="int" />
+          <Property Name="NGAY" Type="datetime" />
+        </EntityType>
+        <Association Name="FK__CHITIETNH__MATHA__22AA2996">
+          <End Role="MATHANG" Type="QUANLYHANGHOAModel.Store.MATHANG" Multiplicity="0..1" />
+          <End Role="CHITIETNHAP" Type="QUANLYHANGHOAModel.Store.CHITIETNHAP" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MATHANG">
+              <PropertyRef Name="MATHANGID" />
+            </Principal>
+            <Dependent Role="CHITIETNHAP">
+              <PropertyRef Name="MATHANGID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CHITIETNH__NHAPI__239E4DCF">
+          <End Role="NHAP" Type="QUANLYHANGHOAModel.Store.NHAP" Multiplicity="0..1" />
+          <End Role="CHITIETNHAP" Type="QUANLYHANGHOAModel.Store.CHITIETNHAP" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NHAP">
+              <PropertyRef Name="NHAPID" />
+            </Principal>
+            <Dependent Role="CHITIETNHAP">
+              <PropertyRef Name="NHAPID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CHITIETXU__MATHA__2C3393D0">
+          <End Role="MATHANG" Type="QUANLYHANGHOAModel.Store.MATHANG" Multiplicity="0..1" />
+          <End Role="CHITIETXUAT" Type="QUANLYHANGHOAModel.Store.CHITIETXUAT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MATHANG">
+              <PropertyRef Name="MATHANGID" />
+            </Principal>
+            <Dependent Role="CHITIETXUAT">
+              <PropertyRef Name="MATHANGID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CHITIETXU__XUATI__2D27B809">
+          <End Role="XUAT" Type="QUANLYHANGHOAModel.Store.XUAT" Multiplicity="0..1" />
+          <End Role="CHITIETXUAT" Type="QUANLYHANGHOAModel.Store.CHITIETXUAT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="XUAT">
+              <PropertyRef Name="XUATID" />
+            </Principal>
+            <Dependent Role="CHITIETXUAT">
+              <PropertyRef Name="XUATID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__KHO__MATHANGID__15502E78">
+          <End Role="MATHANG" Type="QUANLYHANGHOAModel.Store.MATHANG" Multiplicity="0..1" />
+          <End Role="KHO" Type="QUANLYHANGHOAModel.Store.KHO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MATHANG">
+              <PropertyRef Name="MATHANGID" />
+            </Principal>
+            <Dependent Role="KHO">
+              <PropertyRef Name="MATHANGID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__MATHANG__NHASANX__1273C1CD">
+          <End Role="NHASANXUAT" Type="QUANLYHANGHOAModel.Store.NHASANXUAT" Multiplicity="0..1" />
+          <End Role="MATHANG" Type="QUANLYHANGHOAModel.Store.MATHANG" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NHASANXUAT">
+              <PropertyRef Name="NHASANXUATID" />
+            </Principal>
+            <Dependent Role="MATHANG">
+              <PropertyRef Name="NHASANXUATID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__NHANVIEN__CHUCVU__1BFD2C07">
+          <End Role="CHUCVU" Type="QUANLYHANGHOAModel.Store.CHUCVU" Multiplicity="0..1" />
+          <End Role="NHANVIEN" Type="QUANLYHANGHOAModel.Store.NHANVIEN" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CHUCVU">
+              <PropertyRef Name="CHUCVUID" />
+            </Principal>
+            <Dependent Role="NHANVIEN">
+              <PropertyRef Name="CHUCVUID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__NHANVIEN__PHONGB__1CF15040">
+          <End Role="PHONGBAN" Type="QUANLYHANGHOAModel.Store.PHONGBAN" Multiplicity="0..1" />
+          <End Role="NHANVIEN" Type="QUANLYHANGHOAModel.Store.NHANVIEN" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PHONGBAN">
+              <PropertyRef Name="PHONGBANID" />
+            </Principal>
+            <Dependent Role="NHANVIEN">
+              <PropertyRef Name="PHONGBANID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__NHAP__NHANVIENID__1FCDBCEB">
+          <End Role="NHANVIEN" Type="QUANLYHANGHOAModel.Store.NHANVIEN" Multiplicity="0..1" />
+          <End Role="NHAP" Type="QUANLYHANGHOAModel.Store.NHAP" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NHANVIEN">
+              <PropertyRef Name="NHANVIENID" />
+            </Principal>
+            <Dependent Role="NHAP">
+              <PropertyRef Name="NHANVIENID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__XUAT__KHACHHANGI__29572725">
+          <End Role="KHACHHANG" Type="QUANLYHANGHOAModel.Store.KHACHHANG" Multiplicity="0..1" />
+          <End Role="XUAT" Type="QUANLYHANGHOAModel.Store.XUAT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="KHACHHANG">
+              <PropertyRef Name="KHACHHANGID" />
+            </Principal>
+            <Dependent Role="XUAT">
+              <PropertyRef Name="KHACHHANGID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__XUAT__NHANVIENID__286302EC">
+          <End Role="NHANVIEN" Type="QUANLYHANGHOAModel.Store.NHANVIEN" Multiplicity="0..1" />
+          <End Role="XUAT" Type="QUANLYHANGHOAModel.Store.XUAT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NHANVIEN">
+              <PropertyRef Name="NHANVIENID" />
+            </Principal>
+            <Dependent Role="XUAT">
+              <PropertyRef Name="NHANVIENID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QUANLYHANGHOAModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="QUANLYHANGHOAEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="CHITIETNHAPs" EntityType="QUANLYHANGHOAModel.CHITIETNHAP" />
+          <EntitySet Name="CHITIETXUATs" EntityType="QUANLYHANGHOAModel.CHITIETXUAT" />
+          <EntitySet Name="CHUCVUs" EntityType="QUANLYHANGHOAModel.CHUCVU" />
+          <EntitySet Name="KHACHHANGs" EntityType="QUANLYHANGHOAModel.KHACHHANG" />
+          <EntitySet Name="KHOes" EntityType="QUANLYHANGHOAModel.KHO" />
+          <EntitySet Name="MATHANGs" EntityType="QUANLYHANGHOAModel.MATHANG" />
+          <EntitySet Name="NHANVIENs" EntityType="QUANLYHANGHOAModel.NHANVIEN" />
+          <EntitySet Name="NHAPs" EntityType="QUANLYHANGHOAModel.NHAP" />
+          <EntitySet Name="NHASANXUATs" EntityType="QUANLYHANGHOAModel.NHASANXUAT" />
+          <EntitySet Name="PHONGBANs" EntityType="QUANLYHANGHOAModel.PHONGBAN" />
+          <EntitySet Name="XUATs" EntityType="QUANLYHANGHOAModel.XUAT" />
+          <AssociationSet Name="FK__CHITIETNH__MATHA__22AA2996" Association="QUANLYHANGHOAModel.FK__CHITIETNH__MATHA__22AA2996">
+            <End Role="MATHANG" EntitySet="MATHANGs" />
+            <End Role="CHITIETNHAP" EntitySet="CHITIETNHAPs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CHITIETNH__NHAPI__239E4DCF" Association="QUANLYHANGHOAModel.FK__CHITIETNH__NHAPI__239E4DCF">
+            <End Role="NHAP" EntitySet="NHAPs" />
+            <End Role="CHITIETNHAP" EntitySet="CHITIETNHAPs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CHITIETXU__MATHA__2C3393D0" Association="QUANLYHANGHOAModel.FK__CHITIETXU__MATHA__2C3393D0">
+            <End Role="MATHANG" EntitySet="MATHANGs" />
+            <End Role="CHITIETXUAT" EntitySet="CHITIETXUATs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CHITIETXU__XUATI__2D27B809" Association="QUANLYHANGHOAModel.FK__CHITIETXU__XUATI__2D27B809">
+            <End Role="XUAT" EntitySet="XUATs" />
+            <End Role="CHITIETXUAT" EntitySet="CHITIETXUATs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__NHANVIEN__CHUCVU__1BFD2C07" Association="QUANLYHANGHOAModel.FK__NHANVIEN__CHUCVU__1BFD2C07">
+            <End Role="CHUCVU" EntitySet="CHUCVUs" />
+            <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__XUAT__KHACHHANGI__29572725" Association="QUANLYHANGHOAModel.FK__XUAT__KHACHHANGI__29572725">
+            <End Role="KHACHHANG" EntitySet="KHACHHANGs" />
+            <End Role="XUAT" EntitySet="XUATs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__KHO__MATHANGID__15502E78" Association="QUANLYHANGHOAModel.FK__KHO__MATHANGID__15502E78">
+            <End Role="MATHANG" EntitySet="MATHANGs" />
+            <End Role="KHO" EntitySet="KHOes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__MATHANG__NHASANX__1273C1CD" Association="QUANLYHANGHOAModel.FK__MATHANG__NHASANX__1273C1CD">
+            <End Role="NHASANXUAT" EntitySet="NHASANXUATs" />
+            <End Role="MATHANG" EntitySet="MATHANGs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__NHANVIEN__PHONGB__1CF15040" Association="QUANLYHANGHOAModel.FK__NHANVIEN__PHONGB__1CF15040">
+            <End Role="PHONGBAN" EntitySet="PHONGBANs" />
+            <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__NHAP__NHANVIENID__1FCDBCEB" Association="QUANLYHANGHOAModel.FK__NHAP__NHANVIENID__1FCDBCEB">
+            <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+            <End Role="NHAP" EntitySet="NHAPs" />
+          </AssociationSet>
+          <AssociationSet Name="FK__XUAT__NHANVIENID__286302EC" Association="QUANLYHANGHOAModel.FK__XUAT__NHANVIENID__286302EC">
+            <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+            <End Role="XUAT" EntitySet="XUATs" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CHITIETNHAP">
+          <Key>
+            <PropertyRef Name="CHITIETNHAPID" />
+          </Key>
+          <Property Name="CHITIETNHAPID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="MATHANGID" Type="Int32" />
+          <Property Name="SOLUONG" Type="Int32" />
+          <Property Name="GIANHAP" Type="Int32" />
+          <Property Name="NHAPID" Type="Int32" />
+          <NavigationProperty Name="MATHANG" Relationship="QUANLYHANGHOAModel.FK__CHITIETNH__MATHA__22AA2996" FromRole="CHITIETNHAP" ToRole="MATHANG" />
+          <NavigationProperty Name="NHAP" Relationship="QUANLYHANGHOAModel.FK__CHITIETNH__NHAPI__239E4DCF" FromRole="CHITIETNHAP" ToRole="NHAP" />
+        </EntityType>
+        <EntityType Name="CHITIETXUAT">
+          <Key>
+            <PropertyRef Name="CHITIETXUATID" />
+          </Key>
+          <Property Name="CHITIETXUATID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="MATHANGID" Type="Int32" />
+          <Property Name="SOLUONG" Type="Int32" />
+          <Property Name="GIABAN" Type="Int32" />
+          <Property Name="XUATID" Type="Int32" />
+          <NavigationProperty Name="MATHANG" Relationship="QUANLYHANGHOAModel.FK__CHITIETXU__MATHA__2C3393D0" FromRole="CHITIETXUAT" ToRole="MATHANG" />
+          <NavigationProperty Name="XUAT" Relationship="QUANLYHANGHOAModel.FK__CHITIETXU__XUATI__2D27B809" FromRole="CHITIETXUAT" ToRole="XUAT" />
+        </EntityType>
+        <EntityType Name="CHUCVU">
+          <Key>
+            <PropertyRef Name="CHUCVUID" />
+          </Key>
+          <Property Name="CHUCVUID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="TENCV" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="NHANVIENs" Relationship="QUANLYHANGHOAModel.FK__NHANVIEN__CHUCVU__1BFD2C07" FromRole="CHUCVU" ToRole="NHANVIEN" />
+        </EntityType>
+        <EntityType Name="KHACHHANG">
+          <Key>
+            <PropertyRef Name="KHACHHANGID" />
+          </Key>
+          <Property Name="KHACHHANGID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="HOTEN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="NGAYSINH" Type="DateTime" Precision="3" />
+          <Property Name="GIOITINH" Type="Int32" />
+          <Property Name="SDT" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="DIACHI" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="XUATs" Relationship="QUANLYHANGHOAModel.FK__XUAT__KHACHHANGI__29572725" FromRole="KHACHHANG" ToRole="XUAT" />
+        </EntityType>
+        <EntityType Name="KHO">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="MATHANGID" Type="Int32" />
+          <Property Name="SOLUONG" Type="Int32" />
+          <NavigationProperty Name="MATHANG" Relationship="QUANLYHANGHOAModel.FK__KHO__MATHANGID__15502E78" FromRole="KHO" ToRole="MATHANG" />
+        </EntityType>
+        <EntityType Name="MATHANG">
+          <Key>
+            <PropertyRef Name="MATHANGID" />
+          </Key>
+          <Property Name="MATHANGID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="TENMH" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="DONVITINH" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="THANHPHAN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="NHASANXUATID" Type="Int32" />
+          <NavigationProperty Name="CHITIETNHAPs" Relationship="QUANLYHANGHOAModel.FK__CHITIETNH__MATHA__22AA2996" FromRole="MATHANG" ToRole="CHITIETNHAP" />
+          <NavigationProperty Name="CHITIETXUATs" Relationship="QUANLYHANGHOAModel.FK__CHITIETXU__MATHA__2C3393D0" FromRole="MATHANG" ToRole="CHITIETXUAT" />
+          <NavigationProperty Name="KHOes" Relationship="QUANLYHANGHOAModel.FK__KHO__MATHANGID__15502E78" FromRole="MATHANG" ToRole="KHO" />
+          <NavigationProperty Name="NHASANXUAT" Relationship="QUANLYHANGHOAModel.FK__MATHANG__NHASANX__1273C1CD" FromRole="MATHANG" ToRole="NHASANXUAT" />
+        </EntityType>
+        <EntityType Name="NHANVIEN">
+          <Key>
+            <PropertyRef Name="NHANVIENID" />
+          </Key>
+          <Property Name="NHANVIENID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="HOTEN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="NGAYSINH" Type="DateTime" Precision="3" />
+          <Property Name="GIOITINH" Type="Int32" />
+          <Property Name="SDT" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="DIACHI" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="USERNAME" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="PASSWORD" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="CHUCVUID" Type="Int32" />
+          <Property Name="PHONGBANID" Type="Int32" />
+          <NavigationProperty Name="CHUCVU" Relationship="QUANLYHANGHOAModel.FK__NHANVIEN__CHUCVU__1BFD2C07" FromRole="NHANVIEN" ToRole="CHUCVU" />
+          <NavigationProperty Name="PHONGBAN" Relationship="QUANLYHANGHOAModel.FK__NHANVIEN__PHONGB__1CF15040" FromRole="NHANVIEN" ToRole="PHONGBAN" />
+          <NavigationProperty Name="NHAPs" Relationship="QUANLYHANGHOAModel.FK__NHAP__NHANVIENID__1FCDBCEB" FromRole="NHANVIEN" ToRole="NHAP" />
+          <NavigationProperty Name="XUATs" Relationship="QUANLYHANGHOAModel.FK__XUAT__NHANVIENID__286302EC" FromRole="NHANVIEN" ToRole="XUAT" />
+        </EntityType>
+        <EntityType Name="NHAP">
+          <Key>
+            <PropertyRef Name="NHAPID" />
+          </Key>
+          <Property Name="NHAPID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="NHANVIENID" Type="Int32" />
+          <Property Name="NGAY" Type="DateTime" Precision="3" />
+          <Property Name="DIADIEMNHAP" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CHITIETNHAPs" Relationship="QUANLYHANGHOAModel.FK__CHITIETNH__NHAPI__239E4DCF" FromRole="NHAP" ToRole="CHITIETNHAP" />
+          <NavigationProperty Name="NHANVIEN" Relationship="QUANLYHANGHOAModel.FK__NHAP__NHANVIENID__1FCDBCEB" FromRole="NHAP" ToRole="NHANVIEN" />
+        </EntityType>
+        <EntityType Name="NHASANXUAT">
+          <Key>
+            <PropertyRef Name="NHASANXUATID" />
+          </Key>
+          <Property Name="NHASANXUATID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="TEN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="NAMTHANHLAP" Type="Int32" />
+          <NavigationProperty Name="MATHANGs" Relationship="QUANLYHANGHOAModel.FK__MATHANG__NHASANX__1273C1CD" FromRole="NHASANXUAT" ToRole="MATHANG" />
+        </EntityType>
+        <EntityType Name="PHONGBAN">
+          <Key>
+            <PropertyRef Name="PHONGBANID" />
+          </Key>
+          <Property Name="PHONGBANID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="TENPB" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="NHANVIENs" Relationship="QUANLYHANGHOAModel.FK__NHANVIEN__PHONGB__1CF15040" FromRole="PHONGBAN" ToRole="NHANVIEN" />
+        </EntityType>
+        <EntityType Name="XUAT">
+          <Key>
+            <PropertyRef Name="XUATID" />
+          </Key>
+          <Property Name="XUATID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="NHANVIENID" Type="Int32" />
+          <Property Name="KHACHHANGID" Type="Int32" />
+          <Property Name="NGAY" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="CHITIETXUATs" Relationship="QUANLYHANGHOAModel.FK__CHITIETXU__XUATI__2D27B809" FromRole="XUAT" ToRole="CHITIETXUAT" />
+          <NavigationProperty Name="KHACHHANG" Relationship="QUANLYHANGHOAModel.FK__XUAT__KHACHHANGI__29572725" FromRole="XUAT" ToRole="KHACHHANG" />
+          <NavigationProperty Name="NHANVIEN" Relationship="QUANLYHANGHOAModel.FK__XUAT__NHANVIENID__286302EC" FromRole="XUAT" ToRole="NHANVIEN" />
+        </EntityType>
+        <Association Name="FK__CHITIETNH__MATHA__22AA2996">
+          <End Role="MATHANG" Type="QUANLYHANGHOAModel.MATHANG" Multiplicity="0..1" />
+          <End Role="CHITIETNHAP" Type="QUANLYHANGHOAModel.CHITIETNHAP" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MATHANG">
+              <PropertyRef Name="MATHANGID" />
+            </Principal>
+            <Dependent Role="CHITIETNHAP">
+              <PropertyRef Name="MATHANGID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CHITIETNH__NHAPI__239E4DCF">
+          <End Role="NHAP" Type="QUANLYHANGHOAModel.NHAP" Multiplicity="0..1" />
+          <End Role="CHITIETNHAP" Type="QUANLYHANGHOAModel.CHITIETNHAP" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NHAP">
+              <PropertyRef Name="NHAPID" />
+            </Principal>
+            <Dependent Role="CHITIETNHAP">
+              <PropertyRef Name="NHAPID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CHITIETXU__MATHA__2C3393D0">
+          <End Role="MATHANG" Type="QUANLYHANGHOAModel.MATHANG" Multiplicity="0..1" />
+          <End Role="CHITIETXUAT" Type="QUANLYHANGHOAModel.CHITIETXUAT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MATHANG">
+              <PropertyRef Name="MATHANGID" />
+            </Principal>
+            <Dependent Role="CHITIETXUAT">
+              <PropertyRef Name="MATHANGID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CHITIETXU__XUATI__2D27B809">
+          <End Role="XUAT" Type="QUANLYHANGHOAModel.XUAT" Multiplicity="0..1" />
+          <End Role="CHITIETXUAT" Type="QUANLYHANGHOAModel.CHITIETXUAT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="XUAT">
+              <PropertyRef Name="XUATID" />
+            </Principal>
+            <Dependent Role="CHITIETXUAT">
+              <PropertyRef Name="XUATID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__NHANVIEN__CHUCVU__1BFD2C07">
+          <End Role="CHUCVU" Type="QUANLYHANGHOAModel.CHUCVU" Multiplicity="0..1" />
+          <End Role="NHANVIEN" Type="QUANLYHANGHOAModel.NHANVIEN" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CHUCVU">
+              <PropertyRef Name="CHUCVUID" />
+            </Principal>
+            <Dependent Role="NHANVIEN">
+              <PropertyRef Name="CHUCVUID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__XUAT__KHACHHANGI__29572725">
+          <End Role="KHACHHANG" Type="QUANLYHANGHOAModel.KHACHHANG" Multiplicity="0..1" />
+          <End Role="XUAT" Type="QUANLYHANGHOAModel.XUAT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="KHACHHANG">
+              <PropertyRef Name="KHACHHANGID" />
+            </Principal>
+            <Dependent Role="XUAT">
+              <PropertyRef Name="KHACHHANGID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__KHO__MATHANGID__15502E78">
+          <End Role="MATHANG" Type="QUANLYHANGHOAModel.MATHANG" Multiplicity="0..1" />
+          <End Role="KHO" Type="QUANLYHANGHOAModel.KHO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MATHANG">
+              <PropertyRef Name="MATHANGID" />
+            </Principal>
+            <Dependent Role="KHO">
+              <PropertyRef Name="MATHANGID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__MATHANG__NHASANX__1273C1CD">
+          <End Role="NHASANXUAT" Type="QUANLYHANGHOAModel.NHASANXUAT" Multiplicity="0..1" />
+          <End Role="MATHANG" Type="QUANLYHANGHOAModel.MATHANG" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NHASANXUAT">
+              <PropertyRef Name="NHASANXUATID" />
+            </Principal>
+            <Dependent Role="MATHANG">
+              <PropertyRef Name="NHASANXUATID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__NHANVIEN__PHONGB__1CF15040">
+          <End Role="PHONGBAN" Type="QUANLYHANGHOAModel.PHONGBAN" Multiplicity="0..1" />
+          <End Role="NHANVIEN" Type="QUANLYHANGHOAModel.NHANVIEN" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PHONGBAN">
+              <PropertyRef Name="PHONGBANID" />
+            </Principal>
+            <Dependent Role="NHANVIEN">
+              <PropertyRef Name="PHONGBANID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__NHAP__NHANVIENID__1FCDBCEB">
+          <End Role="NHANVIEN" Type="QUANLYHANGHOAModel.NHANVIEN" Multiplicity="0..1" />
+          <End Role="NHAP" Type="QUANLYHANGHOAModel.NHAP" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NHANVIEN">
+              <PropertyRef Name="NHANVIENID" />
+            </Principal>
+            <Dependent Role="NHAP">
+              <PropertyRef Name="NHANVIENID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__XUAT__NHANVIENID__286302EC">
+          <End Role="NHANVIEN" Type="QUANLYHANGHOAModel.NHANVIEN" Multiplicity="0..1" />
+          <End Role="XUAT" Type="QUANLYHANGHOAModel.XUAT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NHANVIEN">
+              <PropertyRef Name="NHANVIENID" />
+            </Principal>
+            <Dependent Role="XUAT">
+              <PropertyRef Name="NHANVIENID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QUANLYHANGHOAModelStoreContainer" CdmEntityContainer="QUANLYHANGHOAEntities">
+          <EntitySetMapping Name="CHITIETNHAPs">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.CHITIETNHAP">
+              <MappingFragment StoreEntitySet="CHITIETNHAP">
+                <ScalarProperty Name="CHITIETNHAPID" ColumnName="CHITIETNHAPID" />
+                <ScalarProperty Name="MATHANGID" ColumnName="MATHANGID" />
+                <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+                <ScalarProperty Name="GIANHAP" ColumnName="GIANHAP" />
+                <ScalarProperty Name="NHAPID" ColumnName="NHAPID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CHITIETXUATs">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.CHITIETXUAT">
+              <MappingFragment StoreEntitySet="CHITIETXUAT">
+                <ScalarProperty Name="CHITIETXUATID" ColumnName="CHITIETXUATID" />
+                <ScalarProperty Name="MATHANGID" ColumnName="MATHANGID" />
+                <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+                <ScalarProperty Name="GIABAN" ColumnName="GIABAN" />
+                <ScalarProperty Name="XUATID" ColumnName="XUATID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CHUCVUs">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.CHUCVU">
+              <MappingFragment StoreEntitySet="CHUCVU">
+                <ScalarProperty Name="CHUCVUID" ColumnName="CHUCVUID" />
+                <ScalarProperty Name="TENCV" ColumnName="TENCV" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="KHACHHANGs">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.KHACHHANG">
+              <MappingFragment StoreEntitySet="KHACHHANG">
+                <ScalarProperty Name="KHACHHANGID" ColumnName="KHACHHANGID" />
+                <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+                <ScalarProperty Name="NGAYSINH" ColumnName="NGAYSINH" />
+                <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+                <ScalarProperty Name="SDT" ColumnName="SDT" />
+                <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="KHOes">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.KHO">
+              <MappingFragment StoreEntitySet="KHO">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="MATHANGID" ColumnName="MATHANGID" />
+                <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MATHANGs">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.MATHANG">
+              <MappingFragment StoreEntitySet="MATHANG">
+                <ScalarProperty Name="MATHANGID" ColumnName="MATHANGID" />
+                <ScalarProperty Name="TENMH" ColumnName="TENMH" />
+                <ScalarProperty Name="DONVITINH" ColumnName="DONVITINH" />
+                <ScalarProperty Name="THANHPHAN" ColumnName="THANHPHAN" />
+                <ScalarProperty Name="NHASANXUATID" ColumnName="NHASANXUATID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NHANVIENs">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.NHANVIEN">
+              <MappingFragment StoreEntitySet="NHANVIEN">
+                <ScalarProperty Name="NHANVIENID" ColumnName="NHANVIENID" />
+                <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+                <ScalarProperty Name="NGAYSINH" ColumnName="NGAYSINH" />
+                <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+                <ScalarProperty Name="SDT" ColumnName="SDT" />
+                <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+                <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+                <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+                <ScalarProperty Name="CHUCVUID" ColumnName="CHUCVUID" />
+                <ScalarProperty Name="PHONGBANID" ColumnName="PHONGBANID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NHAPs">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.NHAP">
+              <MappingFragment StoreEntitySet="NHAP">
+                <ScalarProperty Name="NHAPID" ColumnName="NHAPID" />
+                <ScalarProperty Name="NHANVIENID" ColumnName="NHANVIENID" />
+                <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+                <ScalarProperty Name="DIADIEMNHAP" ColumnName="DIADIEMNHAP" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NHASANXUATs">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.NHASANXUAT">
+              <MappingFragment StoreEntitySet="NHASANXUAT">
+                <ScalarProperty Name="NHASANXUATID" ColumnName="NHASANXUATID" />
+                <ScalarProperty Name="TEN" ColumnName="TEN" />
+                <ScalarProperty Name="NAMTHANHLAP" ColumnName="NAMTHANHLAP" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PHONGBANs">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.PHONGBAN">
+              <MappingFragment StoreEntitySet="PHONGBAN">
+                <ScalarProperty Name="PHONGBANID" ColumnName="PHONGBANID" />
+                <ScalarProperty Name="TENPB" ColumnName="TENPB" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="XUATs">
+            <EntityTypeMapping TypeName="QUANLYHANGHOAModel.XUAT">
+              <MappingFragment StoreEntitySet="XUAT">
+                <ScalarProperty Name="XUATID" ColumnName="XUATID" />
+                <ScalarProperty Name="NHANVIENID" ColumnName="NHANVIENID" />
+                <ScalarProperty Name="KHACHHANGID" ColumnName="KHACHHANGID" />
+                <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

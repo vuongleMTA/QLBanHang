@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QUANLYHANGHOAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CHITIETNHAP">
+    <Key>
+      <PropertyRef Name="CHITIETNHAPID" />
+    </Key>
+    <Property Name="CHITIETNHAPID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MATHANGID" Type="Int32" />
+    <Property Name="SOLUONG" Type="Int32" />
+    <Property Name="GIANHAP" Type="Int32" />
+    <Property Name="NHAPID" Type="Int32" />
+    <NavigationProperty Name="MATHANG" Relationship="Self.FK__CHITIETNH__MATHA__22AA2996" FromRole="CHITIETNHAP" ToRole="MATHANG" />
+    <NavigationProperty Name="NHAP" Relationship="Self.FK__CHITIETNH__NHAPI__239E4DCF" FromRole="CHITIETNHAP" ToRole="NHAP" />
+  </EntityType>
+  <EntityType Name="CHITIETXUAT">
+    <Key>
+      <PropertyRef Name="CHITIETXUATID" />
+    </Key>
+    <Property Name="CHITIETXUATID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MATHANGID" Type="Int32" />
+    <Property Name="SOLUONG" Type="Int32" />
+    <Property Name="GIABAN" Type="Int32" />
+    <Property Name="XUATID" Type="Int32" />
+    <NavigationProperty Name="MATHANG" Relationship="Self.FK__CHITIETXU__MATHA__2C3393D0" FromRole="CHITIETXUAT" ToRole="MATHANG" />
+    <NavigationProperty Name="XUAT" Relationship="Self.FK__CHITIETXU__XUATI__2D27B809" FromRole="CHITIETXUAT" ToRole="XUAT" />
+  </EntityType>
+  <EntityType Name="CHUCVU">
+    <Key>
+      <PropertyRef Name="CHUCVUID" />
+    </Key>
+    <Property Name="CHUCVUID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENCV" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="NHANVIENs" Relationship="Self.FK__NHANVIEN__CHUCVU__1BFD2C07" FromRole="CHUCVU" ToRole="NHANVIEN" />
+  </EntityType>
+  <EntityType Name="KHACHHANG">
+    <Key>
+      <PropertyRef Name="KHACHHANGID" />
+    </Key>
+    <Property Name="KHACHHANGID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HOTEN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NGAYSINH" Type="DateTime" Precision="3" />
+    <Property Name="GIOITINH" Type="Int32" />
+    <Property Name="SDT" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="XUATs" Relationship="Self.FK__XUAT__KHACHHANGI__29572725" FromRole="KHACHHANG" ToRole="XUAT" />
+  </EntityType>
+  <EntityType Name="KHO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MATHANGID" Type="Int32" />
+    <Property Name="SOLUONG" Type="Int32" />
+    <NavigationProperty Name="MATHANG" Relationship="Self.FK__KHO__MATHANGID__15502E78" FromRole="KHO" ToRole="MATHANG" />
+  </EntityType>
+  <EntityType Name="MATHANG">
+    <Key>
+      <PropertyRef Name="MATHANGID" />
+    </Key>
+    <Property Name="MATHANGID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENMH" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DONVITINH" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="THANHPHAN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NHASANXUATID" Type="Int32" />
+    <NavigationProperty Name="CHITIETNHAPs" Relationship="Self.FK__CHITIETNH__MATHA__22AA2996" FromRole="MATHANG" ToRole="CHITIETNHAP" />
+    <NavigationProperty Name="CHITIETXUATs" Relationship="Self.FK__CHITIETXU__MATHA__2C3393D0" FromRole="MATHANG" ToRole="CHITIETXUAT" />
+    <NavigationProperty Name="KHOes" Relationship="Self.FK__KHO__MATHANGID__15502E78" FromRole="MATHANG" ToRole="KHO" />
+    <NavigationProperty Name="NHASANXUAT" Relationship="Self.FK__MATHANG__NHASANX__1273C1CD" FromRole="MATHANG" ToRole="NHASANXUAT" />
+  </EntityType>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="NHANVIENID" />
+    </Key>
+    <Property Name="NHANVIENID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HOTEN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NGAYSINH" Type="DateTime" Precision="3" />
+    <Property Name="GIOITINH" Type="Int32" />
+    <Property Name="SDT" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="USERNAME" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PASSWORD" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CHUCVUID" Type="Int32" />
+    <Property Name="PHONGBANID" Type="Int32" />
+    <NavigationProperty Name="CHUCVU" Relationship="Self.FK__NHANVIEN__CHUCVU__1BFD2C07" FromRole="NHANVIEN" ToRole="CHUCVU" />
+    <NavigationProperty Name="PHONGBAN" Relationship="Self.FK__NHANVIEN__PHONGB__1CF15040" FromRole="NHANVIEN" ToRole="PHONGBAN" />
+    <NavigationProperty Name="NHAPs" Relationship="Self.FK__NHAP__NHANVIENID__1FCDBCEB" FromRole="NHANVIEN" ToRole="NHAP" />
+    <NavigationProperty Name="XUATs" Relationship="Self.FK__XUAT__NHANVIENID__286302EC" FromRole="NHANVIEN" ToRole="XUAT" />
+  </EntityType>
+  <EntityType Name="NHAP">
+    <Key>
+      <PropertyRef Name="NHAPID" />
+    </Key>
+    <Property Name="NHAPID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NHANVIENID" Type="Int32" />
+    <Property Name="NGAY" Type="DateTime" Precision="3" />
+    <Property Name="DIADIEMNHAP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CHITIETNHAPs" Relationship="Self.FK__CHITIETNH__NHAPI__239E4DCF" FromRole="NHAP" ToRole="CHITIETNHAP" />
+    <NavigationProperty Name="NHANVIEN" Relationship="Self.FK__NHAP__NHANVIENID__1FCDBCEB" FromRole="NHAP" ToRole="NHANVIEN" />
+  </EntityType>
+  <EntityType Name="NHASANXUAT">
+    <Key>
+      <PropertyRef Name="NHASANXUATID" />
+    </Key>
+    <Property Name="NHASANXUATID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TEN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NAMTHANHLAP" Type="Int32" />
+    <NavigationProperty Name="MATHANGs" Relationship="Self.FK__MATHANG__NHASANX__1273C1CD" FromRole="NHASANXUAT" ToRole="MATHANG" />
+  </EntityType>
+  <EntityType Name="PHONGBAN">
+    <Key>
+      <PropertyRef Name="PHONGBANID" />
+    </Key>
+    <Property Name="PHONGBANID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENPB" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="NHANVIENs" Relationship="Self.FK__NHANVIEN__PHONGB__1CF15040" FromRole="PHONGBAN" ToRole="NHANVIEN" />
+  </EntityType>
+  <EntityType Name="XUAT">
+    <Key>
+      <PropertyRef Name="XUATID" />
+    </Key>
+    <Property Name="XUATID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NHANVIENID" Type="Int32" />
+    <Property Name="KHACHHANGID" Type="Int32" />
+    <Property Name="NGAY" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CHITIETXUATs" Relationship="Self.FK__CHITIETXU__XUATI__2D27B809" FromRole="XUAT" ToRole="CHITIETXUAT" />
+    <NavigationProperty Name="KHACHHANG" Relationship="Self.FK__XUAT__KHACHHANGI__29572725" FromRole="XUAT" ToRole="KHACHHANG" />
+    <NavigationProperty Name="NHANVIEN" Relationship="Self.FK__XUAT__NHANVIENID__286302EC" FromRole="XUAT" ToRole="NHANVIEN" />
+  </EntityType>
+  <Association Name="FK__CHITIETNH__MATHA__22AA2996">
+    <End Role="MATHANG" Type="Self.MATHANG" Multiplicity="0..1" />
+    <End Role="CHITIETNHAP" Type="Self.CHITIETNHAP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MATHANG">
+        <PropertyRef Name="MATHANGID" />
+      </Principal>
+      <Dependent Role="CHITIETNHAP">
+        <PropertyRef Name="MATHANGID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHITIETNH__NHAPI__239E4DCF">
+    <End Role="NHAP" Type="Self.NHAP" Multiplicity="0..1" />
+    <End Role="CHITIETNHAP" Type="Self.CHITIETNHAP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHAP">
+        <PropertyRef Name="NHAPID" />
+      </Principal>
+      <Dependent Role="CHITIETNHAP">
+        <PropertyRef Name="NHAPID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHITIETXU__MATHA__2C3393D0">
+    <End Role="MATHANG" Type="Self.MATHANG" Multiplicity="0..1" />
+    <End Role="CHITIETXUAT" Type="Self.CHITIETXUAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MATHANG">
+        <PropertyRef Name="MATHANGID" />
+      </Principal>
+      <Dependent Role="CHITIETXUAT">
+        <PropertyRef Name="MATHANGID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHITIETXU__XUATI__2D27B809">
+    <End Role="XUAT" Type="Self.XUAT" Multiplicity="0..1" />
+    <End Role="CHITIETXUAT" Type="Self.CHITIETXUAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="XUAT">
+        <PropertyRef Name="XUATID" />
+      </Principal>
+      <Dependent Role="CHITIETXUAT">
+        <PropertyRef Name="XUATID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__NHANVIEN__CHUCVU__1BFD2C07">
+    <End Role="CHUCVU" Type="Self.CHUCVU" Multiplicity="0..1" />
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CHUCVU">
+        <PropertyRef Name="CHUCVUID" />
+      </Principal>
+      <Dependent Role="NHANVIEN">
+        <PropertyRef Name="CHUCVUID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__XUAT__KHACHHANGI__29572725">
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="0..1" />
+    <End Role="XUAT" Type="Self.XUAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="KHACHHANGID" />
+      </Principal>
+      <Dependent Role="XUAT">
+        <PropertyRef Name="KHACHHANGID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__KHO__MATHANGID__15502E78">
+    <End Role="MATHANG" Type="Self.MATHANG" Multiplicity="0..1" />
+    <End Role="KHO" Type="Self.KHO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MATHANG">
+        <PropertyRef Name="MATHANGID" />
+      </Principal>
+      <Dependent Role="KHO">
+        <PropertyRef Name="MATHANGID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MATHANG__NHASANX__1273C1CD">
+    <End Role="NHASANXUAT" Type="Self.NHASANXUAT" Multiplicity="0..1" />
+    <End Role="MATHANG" Type="Self.MATHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHASANXUAT">
+        <PropertyRef Name="NHASANXUATID" />
+      </Principal>
+      <Dependent Role="MATHANG">
+        <PropertyRef Name="NHASANXUATID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__NHANVIEN__PHONGB__1CF15040">
+    <End Role="PHONGBAN" Type="Self.PHONGBAN" Multiplicity="0..1" />
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHONGBAN">
+        <PropertyRef Name="PHONGBANID" />
+      </Principal>
+      <Dependent Role="NHANVIEN">
+        <PropertyRef Name="PHONGBANID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__NHAP__NHANVIENID__1FCDBCEB">
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="0..1" />
+    <End Role="NHAP" Type="Self.NHAP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="NHANVIENID" />
+      </Principal>
+      <Dependent Role="NHAP">
+        <PropertyRef Name="NHANVIENID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__XUAT__NHANVIENID__286302EC">
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="0..1" />
+    <End Role="XUAT" Type="Self.XUAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="NHANVIENID" />
+      </Principal>
+      <Dependent Role="XUAT">
+        <PropertyRef Name="NHANVIENID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QUANLYHANGHOAEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CHITIETNHAPs" EntityType="Self.CHITIETNHAP" />
+    <EntitySet Name="CHITIETXUATs" EntityType="Self.CHITIETXUAT" />
+    <EntitySet Name="CHUCVUs" EntityType="Self.CHUCVU" />
+    <EntitySet Name="KHACHHANGs" EntityType="Self.KHACHHANG" />
+    <EntitySet Name="KHOes" EntityType="Self.KHO" />
+    <EntitySet Name="MATHANGs" EntityType="Self.MATHANG" />
+    <EntitySet Name="NHANVIENs" EntityType="Self.NHANVIEN" />
+    <EntitySet Name="NHAPs" EntityType="Self.NHAP" />
+    <EntitySet Name="NHASANXUATs" EntityType="Self.NHASANXUAT" />
+    <EntitySet Name="PHONGBANs" EntityType="Self.PHONGBAN" />
+    <EntitySet Name="XUATs" EntityType="Self.XUAT" />
+    <AssociationSet Name="FK__CHITIETNH__MATHA__22AA2996" Association="Self.FK__CHITIETNH__MATHA__22AA2996">
+      <End Role="MATHANG" EntitySet="MATHANGs" />
+      <End Role="CHITIETNHAP" EntitySet="CHITIETNHAPs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHITIETNH__NHAPI__239E4DCF" Association="Self.FK__CHITIETNH__NHAPI__239E4DCF">
+      <End Role="NHAP" EntitySet="NHAPs" />
+      <End Role="CHITIETNHAP" EntitySet="CHITIETNHAPs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHITIETXU__MATHA__2C3393D0" Association="Self.FK__CHITIETXU__MATHA__2C3393D0">
+      <End Role="MATHANG" EntitySet="MATHANGs" />
+      <End Role="CHITIETXUAT" EntitySet="CHITIETXUATs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHITIETXU__XUATI__2D27B809" Association="Self.FK__CHITIETXU__XUATI__2D27B809">
+      <End Role="XUAT" EntitySet="XUATs" />
+      <End Role="CHITIETXUAT" EntitySet="CHITIETXUATs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__NHANVIEN__CHUCVU__1BFD2C07" Association="Self.FK__NHANVIEN__CHUCVU__1BFD2C07">
+      <End Role="CHUCVU" EntitySet="CHUCVUs" />
+      <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__XUAT__KHACHHANGI__29572725" Association="Self.FK__XUAT__KHACHHANGI__29572725">
+      <End Role="KHACHHANG" EntitySet="KHACHHANGs" />
+      <End Role="XUAT" EntitySet="XUATs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__KHO__MATHANGID__15502E78" Association="Self.FK__KHO__MATHANGID__15502E78">
+      <End Role="MATHANG" EntitySet="MATHANGs" />
+      <End Role="KHO" EntitySet="KHOes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MATHANG__NHASANX__1273C1CD" Association="Self.FK__MATHANG__NHASANX__1273C1CD">
+      <End Role="NHASANXUAT" EntitySet="NHASANXUATs" />
+      <End Role="MATHANG" EntitySet="MATHANGs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__NHANVIEN__PHONGB__1CF15040" Association="Self.FK__NHANVIEN__PHONGB__1CF15040">
+      <End Role="PHONGBAN" EntitySet="PHONGBANs" />
+      <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__NHAP__NHANVIENID__1FCDBCEB" Association="Self.FK__NHAP__NHANVIENID__1FCDBCEB">
+      <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+      <End Role="NHAP" EntitySet="NHAPs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__XUAT__NHANVIENID__286302EC" Association="Self.FK__XUAT__NHANVIENID__286302EC">
+      <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+      <End Role="XUAT" EntitySet="XUATs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

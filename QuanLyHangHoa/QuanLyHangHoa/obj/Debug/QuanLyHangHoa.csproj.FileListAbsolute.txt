@@ -1,0 +1,194 @@
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.exe.config
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.exe
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.pdb
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.csprojResolveAssemblyReference.cache
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.Properties.Resources.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.csproj.GenerateResource.Cache
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.exe.licenses
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.exe
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.pdb
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBanHang.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoDoanhThu.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoHangTieuThu.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoKhoHang.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmChucVu.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmDanhSachKhachHang.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmDoiMatKhau.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmMain.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmMatHangKinhDoanh.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhanVien.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhapHang.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhaSanXuat.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmPhongBan.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.dll
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.SqlServer.dll
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.xml
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.SqlServer.xml
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmLogin.resources
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.exe.config
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.exe
+G:\Work\2017\Winform\Anh Long\1700k DeadLine 01082017\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.pdb
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.exe.config
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.exe
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.pdb
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.csprojResolveAssemblyReference.cache
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBanHang.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoDoanhThu.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoHangTieuThu.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoKhoHang.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmDanhSachKhachHang.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmDoiMatKhau.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmLogin.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmMain.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmMatHangKinhDoanh.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhanVien.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhapHang.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhaSanXuat.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmChucVu.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmPhongBan.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.Properties.Resources.resources
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.csproj.GenerateResource.Cache
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.exe.licenses
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.exe
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.pdb
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.dll
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.SqlServer.dll
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.xml
+F:\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.SqlServer.xml
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.exe.config
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.exe
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.pdb
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.exe
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.pdb
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.dll
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.SqlServer.dll
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.xml
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.SqlServer.xml
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.csprojResolveAssemblyReference.cache
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBanHang.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoDoanhThu.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoHangTieuThu.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoKhoHang.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmDanhSachKhachHang.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmDoiMatKhau.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmLogin.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmMain.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmMatHangKinhDoanh.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhanVien.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhapHang.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhaSanXuat.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmChucVu.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmPhongBan.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.Properties.Resources.resources
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.csproj.GenerateResource.Cache
+F:\LEVUONG\ky 1 nam 3\slide\Winform C#\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.exe.licenses
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.exe.config
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.exe
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.pdb
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.exe
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.pdb
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Data.v16.1.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Sparkline.v16.1.Core.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Utils.v16.1.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraBars.v16.1.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraEditors.v16.1.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraGrid.v16.1.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraLayout.v16.1.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraPrinting.v16.1.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.SqlServer.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraTreeList.v16.1.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Office.v16.1.Core.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Data.v16.1.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Sparkline.v16.1.Core.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Utils.v16.1.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraBars.v16.1.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraEditors.v16.1.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraGrid.v16.1.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraLayout.v16.1.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\EntityFramework.SqlServer.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Office.v16.1.Core.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.csprojResolveAssemblyReference.cache
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBanHang.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoDoanhThu.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoHangTieuThu.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmBaoCaoKhoHang.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmDanhSachKhachHang.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmDoiMatKhau.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmLogin.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmMain.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmMatHangKinhDoanh.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhanVien.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhapHang.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmNhaSanXuat.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmChucVu.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.GUI.FrmPhongBan.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.Properties.Resources.resources
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.csproj.GenerateResource.Cache
+F:\LEVUONG\ky 2 nam 3\Công nghệ phần mềm\BTL_version1\Quan Ly Hang Hoa\Code + DB Quan Ly Hang Hoa\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.exe.licenses
+C:\Users\Vuong Le\Desktop\Thuc Tap Nhom\QuanLyHangHoa\QuanLyHangHoa\bin\Debug\QuanLyHangHoa.exe.config
+C:\Users\Vuong Le\Desktop\Thuc Tap Nhom\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.exe
+C:\Users\Vuong Le\Desktop\Thuc Tap Nhom\QuanLyHangHoa\QuanLyHangHoa\obj\Debug\QuanLyHangHoa.pdb

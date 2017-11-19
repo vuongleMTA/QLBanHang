@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QUANLYHANGHOAModelStoreContainer" CdmEntityContainer="QUANLYHANGHOAEntities">
+    <EntitySetMapping Name="CHITIETNHAPs">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.CHITIETNHAP">
+        <MappingFragment StoreEntitySet="CHITIETNHAP">
+          <ScalarProperty Name="CHITIETNHAPID" ColumnName="CHITIETNHAPID" />
+          <ScalarProperty Name="MATHANGID" ColumnName="MATHANGID" />
+          <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+          <ScalarProperty Name="GIANHAP" ColumnName="GIANHAP" />
+          <ScalarProperty Name="NHAPID" ColumnName="NHAPID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIETXUATs">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.CHITIETXUAT">
+        <MappingFragment StoreEntitySet="CHITIETXUAT">
+          <ScalarProperty Name="CHITIETXUATID" ColumnName="CHITIETXUATID" />
+          <ScalarProperty Name="MATHANGID" ColumnName="MATHANGID" />
+          <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+          <ScalarProperty Name="GIABAN" ColumnName="GIABAN" />
+          <ScalarProperty Name="XUATID" ColumnName="XUATID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHUCVUs">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.CHUCVU">
+        <MappingFragment StoreEntitySet="CHUCVU">
+          <ScalarProperty Name="CHUCVUID" ColumnName="CHUCVUID" />
+          <ScalarProperty Name="TENCV" ColumnName="TENCV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="KHACHHANGID" ColumnName="KHACHHANGID" />
+          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+          <ScalarProperty Name="NGAYSINH" ColumnName="NGAYSINH" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHOes">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.KHO">
+        <MappingFragment StoreEntitySet="KHO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MATHANGID" ColumnName="MATHANGID" />
+          <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MATHANGs">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.MATHANG">
+        <MappingFragment StoreEntitySet="MATHANG">
+          <ScalarProperty Name="MATHANGID" ColumnName="MATHANGID" />
+          <ScalarProperty Name="TENMH" ColumnName="TENMH" />
+          <ScalarProperty Name="DONVITINH" ColumnName="DONVITINH" />
+          <ScalarProperty Name="THANHPHAN" ColumnName="THANHPHAN" />
+          <ScalarProperty Name="NHASANXUATID" ColumnName="NHASANXUATID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="NHANVIENID" ColumnName="NHANVIENID" />
+          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+          <ScalarProperty Name="NGAYSINH" ColumnName="NGAYSINH" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="CHUCVUID" ColumnName="CHUCVUID" />
+          <ScalarProperty Name="PHONGBANID" ColumnName="PHONGBANID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHAPs">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.NHAP">
+        <MappingFragment StoreEntitySet="NHAP">
+          <ScalarProperty Name="NHAPID" ColumnName="NHAPID" />
+          <ScalarProperty Name="NHANVIENID" ColumnName="NHANVIENID" />
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+          <ScalarProperty Name="DIADIEMNHAP" ColumnName="DIADIEMNHAP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHASANXUATs">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.NHASANXUAT">
+        <MappingFragment StoreEntitySet="NHASANXUAT">
+          <ScalarProperty Name="NHASANXUATID" ColumnName="NHASANXUATID" />
+          <ScalarProperty Name="TEN" ColumnName="TEN" />
+          <ScalarProperty Name="NAMTHANHLAP" ColumnName="NAMTHANHLAP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHONGBANs">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.PHONGBAN">
+        <MappingFragment StoreEntitySet="PHONGBAN">
+          <ScalarProperty Name="PHONGBANID" ColumnName="PHONGBANID" />
+          <ScalarProperty Name="TENPB" ColumnName="TENPB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="XUATs">
+      <EntityTypeMapping TypeName="QUANLYHANGHOAModel.XUAT">
+        <MappingFragment StoreEntitySet="XUAT">
+          <ScalarProperty Name="XUATID" ColumnName="XUATID" />
+          <ScalarProperty Name="NHANVIENID" ColumnName="NHANVIENID" />
+          <ScalarProperty Name="KHACHHANGID" ColumnName="KHACHHANGID" />
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
